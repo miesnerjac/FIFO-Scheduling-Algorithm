@@ -4,7 +4,7 @@ An algorithm that schedules processes in a first-in-first-out (FIFO) priority me
 *Admitting new processes and labeling them as ready to run*
 The Program includes a class called ProcessManagement. When the program starts, it will read an input file that will provide details for the set of processes to run.
 Each line in this input file indicates the following details for a process (in this order):
-<Arrival Time> <Required CPU Time> [<IO Event time> <IO Event Duration>]*
+"<Arrival Time> <Required CPU Time> [<IO Event time> <IO Event Duration>]*"
 
 The arrival time indicates when a process will be added to the set of processes that you will be managing.
 The required CPU time indicates how long each process should be on the CPU
